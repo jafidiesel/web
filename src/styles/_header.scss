@@ -1,0 +1,15 @@
+.Header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    .Text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: right;
+    }
+    img{
+        max-width: 200px;
+        border-bottom-left-radius: 5px;
+    }
+}

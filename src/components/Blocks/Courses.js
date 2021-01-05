@@ -8,11 +8,11 @@ function Courses(props) {
         <Row>
             <Col>
                 <CardSection>
-                <h2>Courses</h2>
+                <h2 className="title">Courses</h2>
                 {data.courses.map(course => {
                     return (
                     <>
-                        <h6><b>{course.title + ": "}</b><small>{course.platform}</small></h6>
+                        <h6><span className="sub-title">{course.title + ": "}</span><small>{course.platform}</small></h6>
                     </>
                     )
                 })}

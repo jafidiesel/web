@@ -18,14 +18,14 @@ function App() {
       <Row>
         <Col>
           <CardSection>
-            <a href="#">resume link</a>
+            <a href="jafibravin.com/cv-es" rel="noopener noreferrer">resume link</a>
           </CardSection>
         </Col>
       </Row>
       <Row>
         <Col>
           <CardSection>
-            <h3>Technologies</h3>
+            <h3 className="title">Technologies</h3>
             <ul>
               <li>JS</li>
               <li>React</li>
@@ -36,7 +36,7 @@ function App() {
         </Col>
         <Col>
           <CardSection>
-            <h3>Skills</h3>
+            <h3 className="title">Skills</h3>
             <ul>
               <li>Problem-solving oriented.</li>
               <li>Business analysis capacity.</li>

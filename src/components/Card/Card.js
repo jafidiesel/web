@@ -5,7 +5,7 @@ import '../../styles/_card.scss'
 function CardSection(props) {
     return (
     <>
-        <Card className="Card">
+        <Card className="card-component">
             {
                 props.fluid?
                 props.children

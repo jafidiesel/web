@@ -4,7 +4,7 @@ module.exports = {
             company: "Rand Labs",
             rol: "Software Engineer",
             time: "May 2020 - present",
-            description: "Development of new blockchain projects using React, Redux, Bootstrap, API Rest."
+            description: "Development of new blockchain projects using React, Algorand SDK, MoboX, SCSS, Bootstrap, API Rest."
         },
         {
             company: "Optiagro",
@@ -39,31 +39,44 @@ module.exports = {
     ],
     projects:[
         {
-            title: "project1",
-            description: "desc",
-            link: "#",
-            img: ""
+            title: "Algorand Blockchain list",
+            description: "Codechallenge algorand explorer",
+            link: "https://github.com/jafidiesel/algorandBlockchainList",
+            img: "",
+            keyword: ["React", "Bootstrap", "Apirest"]
         },
         {
-            title: "project2",
-            description: "desc",
-            link: "#",
-            img: ""
+            title: "p5codechallenge",
+            description: "Plataforma5 codechallenge",
+            link: "https://github.com/jafidiesel/p5codechallenge",
+            img: "",
+            keyword: ["React", "Bootstrap", "Apirest", "Postgres"]
         },
         {
-            title: "project3",
-            description: "desc",
-            link: "#",
-            img: ""
+            title: "AgronoMe - Final Project",
+            description: "The Crop Control and Monitoring System is the Final Project of the Information System Engineering Degree, Mendoza Regional School.",
+            link: "https://github.com/jafidiesel/proyecto-final-agronome",
+            img: "",
+            keyword: ["Angular", "Bootstrap", "Apirest", "Python", "Postgres"]
         },
         {
-            title: "project4",
-            description: "desc",
-            link: "#",
-            img: ""
+            title: "Light Sensor Lamp",
+            description: "Arduino hobby project",
+            link: "https://github.com/jafidiesel/lightsensorlamp",
+            img: "",
+            keyword: ["Arduino", "C++"]
         }
     ],
     courses: [{
+        title: "Bootcamp Advanced",
+        platform: "plataforma5.com - Coding bootcamp",
+    },{
+        title: "What The Flexbox?!",
+        platform: "wesbos.com",
+    },{
+        title: "CSS Grid",
+        platform: "wesbos.com",
+    },{
         title: "Learn Redux",
         platform: "wesbos.com",
     },{

@@ -8,12 +8,12 @@ function Experience(props) {
         <Row>
             <Col>
                 <CardSection>
-                <h2>Experience</h2>
+                <h2 className="title">Experience</h2>
                 {data.experience.map(element => {
                     return (
                     <>
                     <small>{element.time}</small>
-                        <h5><b>{element.company + ": "}</b>{element.rol}</h5>
+                        <h5 className="sub-title">{element.company + ": "}<span className="role">{element.rol}</span></h5>
                         <p>{element.description}</p>
                     </>
                     )

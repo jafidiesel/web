@@ -9,23 +9,38 @@ function Projects(props) {
     return (
         <>
             <Row>
-                <Col>
+                <Col xl={{ span:10, offset: 1 }}>
                     <CardSection>
                         <h2 className="text-center title">Projects</h2>
                     </CardSection>
                 </Col>
             </Row>
             <Row>
-                { data.projects.map(project => {
+                { data.projects.map((project, index) => {
                         return (
-                        <Col md={4}>
+                        <Col key={'project' + index} md={4} xl={{ span:10, offset: 1 }}>
                             <CardSection>
                                 <h5 className="title">{project.title}</h5>
                                 <p>{project.description}</p>
-                                <a className="link" href={project.link} target="_blank" rel="noopener noreferrer"> {project.link} <FontAwesomeIcon className="link-icon" icon={faExternalLinkAlt} /></a>
+                                <a className="link" href={project.link} target="_blank" rel="noopener noreferrer">
+									<p>
+										Link
+										<FontAwesomeIcon className="link-icon ml-1" icon={faExternalLinkAlt} />
+									</p>
+								</a>
+								{
+									project.demo
+										? <a className="link" href={project.demo} target="_blank" rel="noopener noreferrer">
+											<p>
+												Demo
+												<FontAwesomeIcon className="link-icon ml-1" icon={faExternalLinkAlt} />
+											</p>
+										</a>
+										: null 
+								}
                                 <footer className="keywords">
-                                    {project.keyword.map(element => (
-                                        <span className="keyword">#{element}</span>
+                                    {project.keyword.map((element, index) => (
+                                        <span key={'keyword' + index} className="keyword">#{element}</span>
                                     ))}
                                 </footer>
                             </CardSection>

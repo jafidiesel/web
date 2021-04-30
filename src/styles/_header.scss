@@ -13,3 +13,12 @@
         border-bottom-left-radius: 5px;
     }
 }
+
+@media (max-width: 576px) {
+	.Header {
+		img {
+			max-width: 120px;
+			max-height: 120px;
+		}
+	}
+}

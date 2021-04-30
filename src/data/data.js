@@ -40,17 +40,18 @@ module.exports = {
     projects:[
         {
             title: "Algorand Blockchain list",
-            description: "Codechallenge algorand explorer",
-            link: "https://github.com/jafidiesel/algorandBlockchainList",
+            description: "Front-end code challenge using algorand blockchain explorer. A very simplified explorer that fetch the last 10 transactions and ten blocks every three seconds. Also can inspect a certain block information.",
+			link: "https://github.com/jafidiesel/algorandBlockchainList",
+			demo: "https://algorand-blockchain-list.netlify.app/",
             img: "",
-            keyword: ["React", "Bootstrap", "Apirest"]
+            keyword: ["React", "Bootstrap", "Apirest", "Algorand", "Blockchain"]
         },
         {
-            title: "p5codechallenge",
-            description: "Plataforma5 codechallenge",
+            title: "p5 code challenge",
+            description: "Plataforma5 full-stack code challenge. Baggage travel storage system. More info on link.",
             link: "https://github.com/jafidiesel/p5codechallenge",
             img: "",
-            keyword: ["React", "Bootstrap", "Apirest", "Postgres"]
+            keyword: ["React", "Bootstrap", "Apirest", "Postgres", "full-stack"]
         },
         {
             title: "AgronoMe - Final Project",
@@ -69,36 +70,47 @@ module.exports = {
     ],
     courses: [{
         title: "Bootcamp Advanced",
-        platform: "plataforma5.com - Coding bootcamp",
+		platform: "plataforma5.com - Coding bootcamp",
+		link: ""
     },{
         title: "What The Flexbox?!",
-        platform: "wesbos.com",
+		platform: "wesbos.com",
+		link: ""
     },{
         title: "CSS Grid",
-        platform: "wesbos.com",
+		platform: "wesbos.com",
+		link: ""
     },{
         title: "Learn Redux",
-        platform: "wesbos.com",
+		platform: "wesbos.com",
+		link: ""
     },{
         title: "React for beginners",
-        platform: "wesbos.com",
+		platform: "wesbos.com",
+		link: ""
     },{
         title: "Complete intro to React by Brian Holt",
-        platform: "Front End Masters",
+		platform: "Front End Masters",
+		link: ""
     },{
         title: "Leveling up to ES6",
-        platform: "Udemy",
+		platform: "Udemy",
+		link: ""
     },{
         title: "Angular: De cero a experto creando aplicaciones",
-        platform: "Udemy",
+		platform: "Udemy",
+		link: ""
     },{
         title: "Python + Flask",
-        platform: "faztech.com",
+		platform: "faztech.com",
+		link: ""
     },{
         title: "Javascript Essentials",
-        platform: "Udemy",
+		platform: "Udemy",
+		link: ""
     },{
         title: "Gestión ágil de proyectos con Scrum",
-        platform: "SOLUS. 2017",
+		platform: "SOLUS. 2017",
+		link: ""
     },]
 }

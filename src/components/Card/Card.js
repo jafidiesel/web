@@ -9,7 +9,7 @@ function CardSection(props) {
             {
                 props.fluid?
                 props.children
-                :<Card.Body>
+                :<Card.Body className={props.className}>
                     {props.children}
                 </Card.Body>
             }

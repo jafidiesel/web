@@ -1,11 +1,12 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 import CardSection from "../Card/Card";
-import data from '../../data/data';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 
 function Projects(props) {
+	const {projects} = props;
+	if(!projects.length) return <></>;
     return (
         <>
             <Row>
@@ -16,7 +17,7 @@ function Projects(props) {
                 </Col>
             </Row>
             <Row>
-                { data.projects.map((project, index) => {
+                { projects.map((project, index) => {
                         return (
                         <Col key={'project' + index} md={4} xl={{ span:10, offset: 1 }}>
                             <CardSection>

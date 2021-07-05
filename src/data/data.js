@@ -1,10 +1,53 @@
 module.exports = {
+	header: {
+		title: "Hi! I'm Jafi",
+		subtitle: "I'm a Software Engenieer",
+		pictureUrl: "./profile.jpeg"
+	},
+	socialLinks: [
+		/* optional */
+		{
+			link: "./javierbravin-cv-en.pdf",
+			text: "Resume",
+			icon: "file-pdf"
+		},
+		{
+			link: "https://www.linkedin.com/in/javierbravin/",
+			text: "LinkedIn",
+			icon: "external-link-alt"
+		},
+		{
+			link: "https://github.com/jafidiesel",
+			text: "Github",
+			icon: "external-link-alt"
+		}
+	],
+	tech: {
+		/* optional */
+		title: "Main Technologies",
+		list: [
+			"JS",
+			"React",
+			"Node",
+			"SQL"
+		]
+	},
+	softSkill: {
+		/* optional */
+		title: "Skills",
+		list: [
+			"Problem-solving oriented.",
+			"Business analysis capacity.",
+			"Cooperative work.",
+			"Active listener."
+		]
+	},
     experience: [
         {
             company: "Rand Labs",
             rol: "Software Engineer",
             time: "May 2020 - present",
-            description: "Development of new blockchain projects using React, Algorand SDK, MoboX, SCSS, Bootstrap, API Rest."
+            description: "Development of new blockchain projects using React, Algorand SDK, MoboX, SCSS, Bootstrap, API Rest. Taken part at MyAlgo wallet, Asset Manager, MyAlgo Connect among others projects."
         },
         {
             company: "Optiagro",
@@ -59,7 +102,15 @@ module.exports = {
             link: "https://github.com/jafidiesel/proyecto-final-agronome",
             img: "",
             keyword: ["Angular", "Bootstrap", "Apirest", "Python", "Postgres"]
-        },
+		},
+		{
+			title: "Tic Tac Toe - University subject",
+			description: "Traditional tic tac toe developed using Vanilla JS & Materialize. Currently deployed on Netlify",
+			link: "https://github.com/jafidiesel/programacion-avanzada-2020/tree/master/frontend/tic-tac-toe-1",
+			img: "",
+			demo: "https://tic-tac-toe-pa2020.netlify.app/",
+			keyword: ["Vanilla JS", "Materialize", "Netlify"]
+		},
         {
             title: "Light Sensor Lamp",
             description: "Arduino hobby project",

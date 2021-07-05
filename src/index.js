@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './components/App/App';
 import * as serviceWorker from './serviceWorker';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faFilePdf, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 
+library.add(faFilePdf, faExternalLinkAlt)
 ReactDOM.render(
   <React.StrictMode>
     <App />

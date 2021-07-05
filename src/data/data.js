@@ -1,167 +1,108 @@
 module.exports = {
 	header: {
-		title: "Hi! I'm Jafi",
-		subtitle: "I'm a Software Engenieer",
+		title: "Hi! I'm Aragorn",
+		subtitle: "Son of Arathorn, chieftain of the Dúnedain of Arnor, Captain of the Host of the West, bearer of the Star of the North, wielder of the Sword Reforged, victorious in battle, whose hands bring healing, the Elfstone, Elessar of the line of Valandil, Isildur's son, Elendil's son of Numenor.",
 		pictureUrl: "./profile.jpeg"
 	},
 	socialLinks: [
 		/* optional */
 		{
-			link: "./javierbravin-cv-en.pdf",
-			text: "Resume",
-			icon: "file-pdf"
-		},
-		{
-			link: "https://www.linkedin.com/in/javierbravin/",
-			text: "LinkedIn",
+			link: "https://www.imdb.com/name/nm0001557/",
+			text: "IMDB",
 			icon: "external-link-alt"
 		},
 		{
-			link: "https://github.com/jafidiesel",
-			text: "Github",
+			link: "https://es.wikipedia.org/wiki/Viggo_Mortensen",
+			text: "wikipedia",
+			icon: "external-link-alt"
+		},
+		{
+			link: "https://comicvine.gamespot.com/aragorn/4005-62741/",
+			text: "gamespot",
 			icon: "external-link-alt"
 		}
+		
 	],
 	tech: {
 		/* optional */
-		title: "Main Technologies",
+		title: "Physical Description",
 		list: [
-			"JS",
-			"React",
-			"Node",
-			"SQL"
+			`Height: 6'6" (198cm)`,
+			"Hair: Dark Brown with some grey",
+			"Eyes: Grey",
+			"Skin: Pale"
 		]
 	},
 	softSkill: {
 		/* optional */
 		title: "Skills",
 		list: [
-			"Problem-solving oriented.",
-			"Business analysis capacity.",
-			"Cooperative work.",
-			"Active listener."
+			"Tracking",
+			"Sword Fighting",
+			"Leadership",
+			"Diplomacy",
+			"Horse Riding",
+			"Endurance",
+			"Indomitable Will"
 		]
 	},
     experience: [
         {
-            company: "Rand Labs",
-            rol: "Software Engineer",
-            time: "May 2020 - present",
-            description: "Development of new blockchain projects using React, Algorand SDK, MoboX, SCSS, Bootstrap, API Rest. Taken part at MyAlgo wallet, Asset Manager, MyAlgo Connect among others projects."
+            company: "The Fellowship of the Ring",
+            rol: "Aragorn",
+            time: "2001",
+            description: "In the Second Age of Middle-earth, the lords of Elves, Dwarves, and Men are given Rings of Power. Unbeknownst to them, the Dark Lord Sauron forges the One Ring in Mount Doom...."
         },
         {
-            company: "Optiagro",
-            rol: "Front-end developer",
-            time: "August 2019 - April 2020",
-            description: "Development of new functionalities of the Optiagro platform, working with Javascript(ES6), Leaflet, Geojson, Semantic UI, JSDoc and API-REST"
+            company: "The Two Towers",
+            rol: "Aragorn",
+            time: "2002",
+            description: "Awakening from a dream of Gandalf fighting the Balrog in Moria, Frodo Baggins and Samwise Gamgee find themselves lost in the Emyn Muil near Mordor and discover they are being tracked by Gollum, a former bearer of the One Ring. Capturing Gollum, Frodo takes pity and allows him to guide them, reminding Sam that they will need Gollum's help to infiltrate Mordor..."
         },
         {
-            company: "Independant",
-            rol: "Software Developer Engineer in Test",
-            time: "June 2019 - August 2019",
-            description: "Test cases automation, manual QA, agile methodologies. Nightwatch.js, JIRA, docker."
-        },
-        {
-            company: "O.S.E.P.",
-            rol: "Fullstack Developer",
-            time: "April 2007 - June 2019",
-            description: "Development of small full stack projects, from data modeling to client-side functionality. Automated and manual testing. Javascript(ES5), Java, Postgresql Selenium, SVN."
-        },
-        {
-            company: "LADEI Lab",
-            rol: "R+D Scholar",
-            time: "April 2016 - December 2017",
-            description: "Development of a desktop application capable of managing the subjects of the Computer Engineering degree using a GODOT Video Game development graphic engine. Godot, git, Kanban."
-        },
-        {
-            company: "DHARMa Lab",
-            rol: "R+D Scholar",
-            time: "April 2015 - December 2015",
-            description: "Maintenance, development, manual QA & documentation of DHARMa’s website content management. Kanban, Drupal."
+            company: "The Return of the King",
+            rol: "Aragorn",
+            time: "2003",
+            description: "Two Hobbits, Sméagol and his cousin, Déagol, are fishing when Déagol discovers the One Ring in the river. Sméagol's mind is ensnared by the Ring, and he kills his cousin for it. He retreats into the Misty Mountains as the Ring twists his body and mind until he becomes the creature Gollum."
         }
-    ],
+	],
+    courses: [{
+        title: "Tracking",
+		platform: "Some place",
+		link: ""
+    },{
+        title: "Sword Fighting",
+		platform: "Some place",
+		link: ""
+    },{
+        title: "Leadership",
+		platform: "Some place",
+		link: ""
+    }],
     projects:[
         {
-            title: "Algorand Blockchain list",
-            description: "Front-end code challenge using algorand blockchain explorer. A very simplified explorer that fetch the last 10 transactions and ten blocks every three seconds. Also can inspect a certain block information.",
-			link: "https://github.com/jafidiesel/algorandBlockchainList",
-			demo: "https://algorand-blockchain-list.netlify.app/",
+            title: "Find the captured hobbits",
+            description: "When they realized Pippin and Merry were captured and Frodo and Sam had left for Mordor they decided to find the captured hobbits.",
+			link: "",
+			demo: "",
             img: "",
-            keyword: ["React", "Bootstrap", "Apirest", "Algorand", "Blockchain"]
+            keyword: ["Merrin", "Pippin"]
         },
         {
-            title: "p5 code challenge",
-            description: "Plataforma5 full-stack code challenge. Baggage travel storage system. More info on link.",
-            link: "https://github.com/jafidiesel/p5codechallenge",
+            title: "Defend the caravan",
+            description: "Defend the caravan of travelers who were destined for Helm's deep",
+            link: "",
+			demo: "",
             img: "",
-            keyword: ["React", "Bootstrap", "Apirest", "Postgres", "full-stack"]
+            keyword: ["Defend", "the", "Caravan"]
         },
         {
-            title: "AgronoMe - Final Project",
-            description: "The Crop Control and Monitoring System is the Final Project of the Information System Engineering Degree, Mendoza Regional School.",
-            link: "https://github.com/jafidiesel/proyecto-final-agronome",
+            title: "Look at the beacons of Gondor",
+            description: "The Beacons of Gondor had been lit !!",
+            link: "",
+			demo: "",
             img: "",
-            keyword: ["Angular", "Bootstrap", "Apirest", "Python", "Postgres"]
-		},
-		{
-			title: "Tic Tac Toe - University subject",
-			description: "Traditional tic tac toe developed using Vanilla JS & Materialize. Currently deployed on Netlify",
-			link: "https://github.com/jafidiesel/programacion-avanzada-2020/tree/master/frontend/tic-tac-toe-1",
-			img: "",
-			demo: "https://tic-tac-toe-pa2020.netlify.app/",
-			keyword: ["Vanilla JS", "Materialize", "Netlify"]
-		},
-        {
-            title: "Light Sensor Lamp",
-            description: "Arduino hobby project",
-            link: "https://github.com/jafidiesel/lightsensorlamp",
-            img: "",
-            keyword: ["Arduino", "C++"]
-        }
-    ],
-    courses: [{
-        title: "Bootcamp Advanced",
-		platform: "plataforma5.com - Coding bootcamp",
-		link: ""
-    },{
-        title: "What The Flexbox?!",
-		platform: "wesbos.com",
-		link: ""
-    },{
-        title: "CSS Grid",
-		platform: "wesbos.com",
-		link: ""
-    },{
-        title: "Learn Redux",
-		platform: "wesbos.com",
-		link: ""
-    },{
-        title: "React for beginners",
-		platform: "wesbos.com",
-		link: ""
-    },{
-        title: "Complete intro to React by Brian Holt",
-		platform: "Front End Masters",
-		link: ""
-    },{
-        title: "Leveling up to ES6",
-		platform: "Udemy",
-		link: ""
-    },{
-        title: "Angular: De cero a experto creando aplicaciones",
-		platform: "Udemy",
-		link: ""
-    },{
-        title: "Python + Flask",
-		platform: "faztech.com",
-		link: ""
-    },{
-        title: "Javascript Essentials",
-		platform: "Udemy",
-		link: ""
-    },{
-        title: "Gestión ágil de proyectos con Scrum",
-		platform: "SOLUS. 2017",
-		link: ""
-    },]
+            keyword: ["And", "Rohan", "Will", "Answer"]
+		}
+    ]
 }

@@ -18,7 +18,7 @@ const Projects = (props) => {
 			<div>
 				{projects.map((project, index) => {
 					return (
-						<div>
+						<div key={`project-${index}`}>
 							<CardSection>
 								<h5 className={css(styles.title)}>{project.title}</h5>
 								<p>{project.description}</p>

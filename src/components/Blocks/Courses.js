@@ -1,24 +1,23 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
 import CardSection from "../Card/Card";
+import { css } from "aphrodite";
+import styles from './styles';
 
-function Courses(props) {
-	const {courses} = props;
-	if(!courses.length) return <></>;
-    return (
-        <Row>
-            <Col xl={{ span:10, offset: 1 }}>
-                <CardSection>
-                <h2 className="title">Courses</h2>
-					{courses.map((course, index) => {
-						return (
-							<h6 key={'course' + index}><span className="sub-title">{course.title + ": "}</span><small>{course.platform}</small></h6>
-						)
-					})}
-                </CardSection>
-            </Col>
-        </Row>
-    );
+const Courses = (props) => {
+	const { courses } = props;
+	if (!courses.length) return <></>;
+	return (
+		<div>
+			<CardSection>
+				<h2 className={css(styles.title)}>Courses</h2>
+				{courses.map((course, index) => {
+					return (
+						<h6 key={'course' + index}><span className={css(styles.subTitleR)}>{course.title + ": "}</span><small>{course.platform}</small></h6>
+					)
+				})}
+			</CardSection>
+		</div>
+	);
 }
 
 export default Courses;

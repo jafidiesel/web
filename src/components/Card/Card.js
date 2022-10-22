@@ -1,19 +1,20 @@
 import React from "react";
-import { Card } from "react-bootstrap";
-import '../../styles/_card.scss'
+/* import '../../styles/_card.scss' */
+import { css } from "aphrodite";
+import styles from './styles';
 
-function CardSection(props) {
+const CardSection = (props) => {
     return (
     <>
-        <Card className="card-component">
+        <div className={css(styles.cardComponent)}>
             {
                 props.fluid?
                 props.children
-                :<Card.Body className={props.className}>
+                :<div className={props.className}>
                     {props.children}
-                </Card.Body>
+                </div>
             }
-        </Card>
+        </div>
     </>
     );
 }

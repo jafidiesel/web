@@ -1,27 +1,24 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
 import CardSection from "../Card/Card";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { css } from 'aphrodite';
+import styles from './styles';
 
-function SocialLinks(props) {
-	const {socialLinks} = props;
-	if(!socialLinks.length) return <></>;
-    return (
-		<Row>
-			<Col xl={{ span:10, offset: 1 }}>
-				<CardSection className="link-section">
-					{socialLinks.map((element, index) => {
-						return (
-							<a className="text-center" href={element.link} target="_blank" rel="noopener noreferrer" key={'link-'+index}>
-								{element.text}
-								<FontAwesomeIcon className="link-icon ml-2" icon={element.icon} />
-							</a>
-						)
-					})}
-				</CardSection>
-			</Col>
-		</Row>
-    );
+const SocialLinks = (props) => {
+	const { socialLinks } = props;
+	if (!socialLinks.length) return <></>;
+	return (
+		<CardSection className={css(styles.linkSection)}>
+			{socialLinks.map((element, index) => {
+				return (
+					<a className={css(styles.linkIcon)} href={element.link} target="_blank" rel="noopener noreferrer" key={'link-' + index}>
+						{element.text}
+						<FontAwesomeIcon icon={element.icon} />
+					</a>
+				)
+			})}
+		</CardSection>
+	);
 }
 
 export default SocialLinks;

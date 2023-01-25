@@ -1,25 +1,26 @@
 import React from "react";
-import CardSection from "../Card/Card";
+import Card from "../Card/Card";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { css } from "aphrodite";
 import styles from './styles';
+import { projectsData } from "../../data";
 
-const Projects = (props) => {
-	const { projects } = props;
+const Projects = () => {
+	const { projects } = projectsData;
 	if (!projects.length) return <></>;
 	return (
 		<>
 			<div>
-				<CardSection>
+				<Card>
 					<h2 className={css(styles.title, styles.textCenter)}>Projects</h2>
-				</CardSection>
+				</Card>
 			</div>
 			<div>
 				{projects.map((project, index) => {
 					return (
 						<div key={`project-${index}`}>
-							<CardSection>
+							<Card>
 								<h5 className={css(styles.title)}>{project.title}</h5>
 								<p>{project.description}</p>
 								<a className={css(styles.linkIcon)} href={project.link} target="_blank" rel="noopener noreferrer">
@@ -38,7 +39,7 @@ const Projects = (props) => {
 										<span key={'keyword' + index} className={css(styles.keyword)}>#{element}</span>
 									))}
 								</div>
-							</CardSection>
+							</Card>
 						</div>
 					)
 				})}

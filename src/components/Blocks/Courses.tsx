@@ -1,21 +1,22 @@
 import React from "react";
-import CardSection from "../Card/Card";
+import Card from "../Card/Card";
 import { css } from "aphrodite";
 import styles from './styles';
+import { coursesData } from "../../data";
 
-const Courses = (props) => {
-	const { courses } = props;
+const Courses = () => {
+	const { courses } = coursesData;
 	if (!courses.length) return <></>;
 	return (
 		<div>
-			<CardSection>
+			<Card>
 				<h2 className={css(styles.title)}>Courses</h2>
 				{courses.map((course, index) => {
 					return (
-						<h6 key={'course' + index}><span className={css(styles.subTitleR)}>{course.title + ": "}</span><small>{course.platform}</small></h6>
+						<h6 key={'course' + index}><span className={css(styles.subTitleRole)}>{course.title + ": "}</span><small>{course.platform}</small></h6>
 					)
 				})}
-			</CardSection>
+			</Card>
 		</div>
 	);
 }

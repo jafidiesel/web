@@ -1,15 +1,16 @@
 import React from "react";
-import CardSection from "../Card/Card";
+import Card from "../Card/Card";
 import { css } from "aphrodite";
 import styles from './styles';
+import { experiencesData } from "../../data";
 
-const Experience = (props) => {
-	const { experience } = props;
-	if (!experience.length) return <></>;
+const Experience = () => {
+	const { experiences } = experiencesData;
+	if (!experiences.length) return <></>;
 	return (
-		<CardSection>
+		<Card>
 			<h2 className={css(styles.title)}>Experience</h2>
-			{experience.map((element, index) => {
+			{experiences.map((element, index) => {
 				return (
 					<div key={'time' + index}>
 						<small>{element.time}</small>
@@ -18,7 +19,7 @@ const Experience = (props) => {
 					</div>
 				)
 			})}
-		</CardSection>
+		</Card>
 	);
 }
 

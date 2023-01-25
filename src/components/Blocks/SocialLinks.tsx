@@ -1,14 +1,14 @@
 import React from "react";
-import CardSection from "../Card/Card";
+import Card from "../Card/Card";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { css } from 'aphrodite';
 import styles from './styles';
+import { socialLinks } from "../../data";
 
-const SocialLinks = (props) => {
-	const { socialLinks } = props;
+const SocialLinks = () => {
 	if (!socialLinks.length) return <></>;
 	return (
-		<CardSection className={css(styles.linkSection)}>
+		<Card className={css(styles.linkSection)}>
 			{socialLinks.map((element, index) => {
 				return (
 					<a className={css(styles.linkIcon)} href={element.link} target="_blank" rel="noopener noreferrer" key={'link-' + index}>
@@ -17,7 +17,7 @@ const SocialLinks = (props) => {
 					</a>
 				)
 			})}
-		</CardSection>
+		</Card>
 	);
 }
 

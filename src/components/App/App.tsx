@@ -1,26 +1,30 @@
 import React from "react";
 
-import Header from "../Blocks/Header/Header";
-import Projects from "../Blocks/Projects";
-import Experience from "../Blocks/Experience";
-import Courses from "../Blocks/Courses";
-import SocialLinks from "../Blocks/SocialLinks";
-import Skills from "../Blocks/Skills";
-import { css } from "aphrodite";
-import styles from './styles';
+import {
+	createBrowserRouter,
+	RouterProvider,
+} from "react-router-dom";
+import Cv from "../Cv/Cv";
+import Dj from "../Dj/Dj";
 
 
 const App = () => {
-	return (
-		<div className={css(styles.app)}>
-			<Header />
-			<SocialLinks />
-			<Skills />
-			<Experience />
-			<Courses />
-			<Projects />
-		</div>
-	);
+	const router = createBrowserRouter([
+		{
+			path: "/",
+			element: <Cv />,
+		},
+		{
+			path: "/music",
+			element: <Dj />,
+		},
+		{
+			path: "*",
+			element: <p>Page not found</p>,
+		}
+	]);
+
+	return <RouterProvider router={router} />;
 }
 
 export default App;

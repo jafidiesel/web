@@ -2,6 +2,9 @@ import { StyleSheet} from 'aphrodite';
 import colors from '../../colors';
 
 const styles = StyleSheet.create({
+	app: {
+		padding: '0px 10%'
+	},
 	linkSection: {
 		display: 'flex',
 		flexDirection: 'row',

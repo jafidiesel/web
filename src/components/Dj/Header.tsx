@@ -1,7 +1,7 @@
 import React from 'react';
 import { css } from "aphrodite";
 import styles from './styles';
-import pic from '../../assets/img/profile.jpeg';
+import pic from '../../assets/img/djing_profile.jpg';
 
 const Header = () => {
 	return (<>

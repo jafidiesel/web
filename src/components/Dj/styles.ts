@@ -9,7 +9,8 @@ const styles = StyleSheet.create({
 	inner: {
 		maxWidth: 600,
 		width: '100%',
-		height: '100vh',
+		minHeight: '100vh',
+		height: '100%',
 		color: 'white'
 	},
 	/* header */
@@ -17,12 +18,14 @@ const styles = StyleSheet.create({
 		display: 'flex',
 		alignItems: 'center',
 		flexDirection: 'column',
-		margin: '48px 0px 24px 0px'
+		margin: '48px 0px 24px 0px',
+		textAlign: 'center'
 	},
 	profile: {
 		maxWidth: 96,
 		borderRadius: '50%',
-		border: '3px solid gray'
+		border: '3px solid gray',
+		marginBottom: 8
 	},
 	/* social links */
 	linksContainer: {
@@ -30,13 +33,6 @@ const styles = StyleSheet.create({
 		justifyContent: 'center',
 		gap: 12,
 		marginBottom: 24
-
-	},
-	link: {
-
-	},
-	linkIcon: {
-
 	},
 	icon: {
 		width: 40,
@@ -63,7 +59,10 @@ const styles = StyleSheet.create({
 	itemLinkInner: {
 		width: '100%',
 		backgroundColor: 'white',
-		padding: '24px 12px'
+		padding: '24px 12px',
+		display: 'flex',
+		justifyContent: 'space-between',
+		alignItems: 'center'
 	},
 	darkIcon: {
 		color: 'black',

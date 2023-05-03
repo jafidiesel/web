@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
   header: {
     display: "flex",
     flexDirection: "row-reverse",
-    justifyContent: "space-between",
+    justifyContent: "space-between"
   },
   image: {
     maxWidth: 200,
@@ -13,23 +13,23 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: 5,
     "@media (max-width: 576px)": {
       maxWidth: 120,
-      maxHeight: 120,
-    },
+      maxHeight: 120
+    }
   },
   text: {
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
-    textAlign: "right",
+    textAlign: "right"
   },
   title: {
     color: colors.third,
-    fontWeight: 600,
+    fontWeight: 600
   },
   subTitle: {
     color: colors.fourth,
-    fontWeight: 600,
-  },
+    fontWeight: 600
+  }
 });
 
 export default styles;

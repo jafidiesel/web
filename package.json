@@ -55,7 +55,7 @@
     "proseWrap": "preserve"
   },
   "lint-staged": {
-    "*.{ts,tsx}": "npm format"
+    "*.{ts,tsx}": "npm run format"
   },
   "eslintConfig": {
     "extends": [

@@ -8,16 +8,16 @@ const App = () => {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Cv />,
+      element: <Cv />
     },
     {
       path: "/music",
-      element: <Dj />,
+      element: <Dj />
     },
     {
       path: "*",
-      element: <p>Page not found</p>,
-    },
+      element: <p>Page not found</p>
+    }
   ]);
 
   return <RouterProvider router={router} />;

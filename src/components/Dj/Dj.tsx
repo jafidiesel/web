@@ -11,10 +11,7 @@ const Dj = () => {
     <div className={css(styles.outter)}>
       <Helmet>
         <title>Jafi Bravin Music</title>
-        <meta
-          name="description"
-          content="Progressive House / Organic House / Melodic House"
-        />
+        <meta name="description" content="Progressive House / Organic House / Melodic House" />
         <meta
           name="keywords"
           content="Dj, djing, progressive house, organic house, mendoza dj, argentina dj, soundcloud, melodic techno, melodic house"

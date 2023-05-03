@@ -2,10 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/App/App";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import {
-  faFilePdf,
-  faExternalLinkAlt,
-} from "@fortawesome/free-solid-svg-icons";
+import { faFilePdf, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
 library.add(faFilePdf, faExternalLinkAlt);
 ReactDOM.render(

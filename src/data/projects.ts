@@ -20,7 +20,7 @@ export const projectsData: IProjects = {
       link: "https://github.com/jafidiesel/algorandBlockchainList",
       demo: "https://algorand-blockchain-list.netlify.app/",
       img: "",
-      keyword: ["React", "Algorand", "Blockchain", "Api Rest", "Bootstrap"],
+      keyword: ["React", "Algorand", "Blockchain", "Api Rest", "Bootstrap"]
     },
     {
       title: "p5 code challenge",
@@ -29,7 +29,7 @@ export const projectsData: IProjects = {
       link: "https://github.com/jafidiesel/p5codechallenge",
       demo: "",
       img: "",
-      keyword: ["React", "Bootstrap", "Apirest", "Postgres", "full-stack"],
+      keyword: ["React", "Bootstrap", "Apirest", "Postgres", "full-stack"]
     },
     {
       title: "AgronoMe - Final Project",
@@ -38,7 +38,7 @@ export const projectsData: IProjects = {
       link: "https://github.com/jafidiesel/proyecto-final-agronome",
       demo: "",
       img: "",
-      keyword: ["Angular", "Bootstrap", "Apirest", "Python", "Postgres"],
+      keyword: ["Angular", "Bootstrap", "Apirest", "Python", "Postgres"]
     },
     {
       title: "Tic Tac Toe - University subject",
@@ -47,16 +47,15 @@ export const projectsData: IProjects = {
       link: "https://github.com/jafidiesel/programacion-avanzada-2020/tree/master/frontend/tic-tac-toe-1",
       demo: "https://tic-tac-toe-pa2020.netlify.app/",
       img: "",
-      keyword: ["Vanilla JS", "Materialize", "Netlify"],
+      keyword: ["Vanilla JS", "Materialize", "Netlify"]
     },
     {
       title: "Light Sensor Lamp",
-      description:
-        "Arduino hobby project to measure the amount of light in the ambiance.",
+      description: "Arduino hobby project to measure the amount of light in the ambiance.",
       link: "https://github.com/jafidiesel/lightsensorlamp",
       demo: "",
       img: "",
-      keyword: ["Arduino", "C++"],
-    },
-  ],
+      keyword: ["Arduino", "C++"]
+    }
+  ]
 };

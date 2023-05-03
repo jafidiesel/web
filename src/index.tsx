@@ -1,15 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './components/App/App';
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faFilePdf, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./components/App/App";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import {
+  faFilePdf,
+  faExternalLinkAlt,
+} from "@fortawesome/free-solid-svg-icons";
 
-library.add(faFilePdf, faExternalLinkAlt)
+library.add(faFilePdf, faExternalLinkAlt);
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change

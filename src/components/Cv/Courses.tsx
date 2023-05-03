@@ -14,9 +14,7 @@ const Courses = () => {
         {courses.map((course, index) => {
           return (
             <h6 key={"course" + index}>
-              <span className={css(styles.subTitleRole)}>
-                {course.title + ": "}
-              </span>
+              <span className={css(styles.subTitleRole)}>{course.title + ": "}</span>
               <small>{course.platform}</small>
             </h6>
           );

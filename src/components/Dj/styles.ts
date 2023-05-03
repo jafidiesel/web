@@ -4,14 +4,14 @@ const styles = StyleSheet.create({
   outter: {
     backgroundColor: "black",
     display: "flex",
-    justifyContent: "center",
+    justifyContent: "center"
   },
   inner: {
     maxWidth: 600,
     width: "100%",
     minHeight: "100vh",
     height: "100%",
-    color: "white",
+    color: "white"
   },
   /* header */
   headerContainer: {
@@ -19,20 +19,20 @@ const styles = StyleSheet.create({
     alignItems: "center",
     flexDirection: "column",
     margin: "48px 0px 24px 0px",
-    textAlign: "center",
+    textAlign: "center"
   },
   profile: {
     maxWidth: 96,
     borderRadius: "50%",
     border: "3px solid gray",
-    marginBottom: 8,
+    marginBottom: 8
   },
   /* social links */
   linksContainer: {
     display: "flex",
     justifyContent: "center",
     gap: 12,
-    marginBottom: 24,
+    marginBottom: 24
   },
   icon: {
     width: 40,
@@ -42,19 +42,19 @@ const styles = StyleSheet.create({
     transition: "all 0.15s ease-out",
     ":hover": {
       padding: 0,
-      transition: "all 0.25s ease-out",
-    },
+      transition: "all 0.25s ease-out"
+    }
   },
   /* items links */
   itemLinkOutter: {
-    marginBottom: 24,
+    marginBottom: 24
   },
   itemLink: {
     color: "black",
     fontWeight: 600,
     ":hover": {
-      textDecoration: "none",
-    },
+      textDecoration: "none"
+    }
   },
   itemLinkInner: {
     width: "100%",
@@ -62,12 +62,12 @@ const styles = StyleSheet.create({
     padding: "24px 12px",
     display: "flex",
     justifyContent: "space-between",
-    alignItems: "center",
+    alignItems: "center"
   },
   darkIcon: {
     color: "black",
-    marginRight: 8,
-  },
+    marginRight: 8
+  }
 });
 
 export default styles;

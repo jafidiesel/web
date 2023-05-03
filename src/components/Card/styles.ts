@@ -8,8 +8,8 @@ const styles = StyleSheet.create({
     padding: 16,
     borderRadius: 4,
     boxShadow: "0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 6px 12px 5px",
-    borderColor: colors.first,
-  },
+    borderColor: colors.first
+  }
 });
 
 export default styles;

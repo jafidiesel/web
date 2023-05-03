@@ -45,10 +45,7 @@ const Projects = () => {
                 )}
                 <div>
                   {project.keyword.map((element, index) => (
-                    <span
-                      key={"keyword" + index}
-                      className={css(styles.keyword)}
-                    >
+                    <span key={"keyword" + index} className={css(styles.keyword)}>
                       #{element}
                     </span>
                   ))}

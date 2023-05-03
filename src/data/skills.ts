@@ -13,7 +13,7 @@ export const skills: ISkills = {
   hardSkills: {
     /* optional */
     title: "Main Technologies",
-    list: ["JS", "React", "Algorand SDK", "Blockchain"],
+    list: ["JS", "React", "Algorand SDK", "Blockchain"]
   },
   softSkill: {
     /* optional */
@@ -22,7 +22,7 @@ export const skills: ISkills = {
       "Problem-solving oriented.",
       "Business analysis capacity.",
       "Cooperative work.",
-      "Active listener.",
-    ],
-  },
+      "Active listener."
+    ]
+  }
 };

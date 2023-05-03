@@ -42,6 +42,21 @@
       "pre-commit": "prettier --write . && git add -A ."
     }
   },
+  "prettier": {
+    "trailingComma": "none",
+    "useTabs": false,
+    "semi": true,
+    "printWidth": 100,
+    "bracketSpacing": true,
+    "arrowParens": "avoid",
+    "quoteProps": "as-needed",
+    "jsxSingleQuote": false,
+    "jsxBracketSameLine": false,
+    "proseWrap": "preserve"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": "npm format"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",

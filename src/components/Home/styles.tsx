@@ -14,7 +14,6 @@ const styles = StyleSheet.create({
     transition: "opacity 0.25s",
     transitionDelay: "0s",
     minHeight: "100vh",
-
     display: "flex",
     justifyContent: "center",
     alignItems: "center"
@@ -23,7 +22,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.A0,
     transition: "opacity 1s ease-out, transform 0.75s ease-out",
     boxShadow: "0 2rem 4rem 0.25rem rgba(46, 43, 55, 0.575)",
-    borderRadius: "5px",
+    borderRadius: 5,
     height: 520,
     width: 700,
     "@media (max-width: 991px)": {
@@ -42,8 +41,8 @@ const styles = StyleSheet.create({
   },
   verticalBanner: {
     height: 520,
-    borderTopLeftRadius: "5px",
-    borderBottomLeftRadius: "5px",
+    borderTopLeftRadius: 5,
+    borderBottomLeftRadius: 5,
     display: "block",
     "@media (max-width: 991px)": {
       display: "none"
@@ -52,10 +51,9 @@ const styles = StyleSheet.create({
   horizontalBanner: {
     display: "none",
     width: "100%",
-    /* height: 150, */
     maxHeight: 270,
-    borderTopLeftRadius: "5px",
-    borderTopRightRadius: "5px",
+    borderTopLeftRadius: 5,
+    borderTopRightRadius: 5,
     "@media (max-width: 991px)": {
       display: "block"
     }

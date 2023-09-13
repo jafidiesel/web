@@ -8,6 +8,40 @@ const Links = () => (
   <div>
     <div className={css(styles.itemLinkOutter)}>
       <a
+        href="https://soundcloud.com/ibizastardustradio/jafi-bravin-organic-connection"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={css(styles.itemLink)}
+        id="link-card-organic-connection"
+      >
+        <div className={css(styles.itemLinkInner)}>
+          <div>
+            <FontAwesomeIcon icon={faSoundcloud} className={css(styles.darkIcon)} />
+            Organic Connection #001 - Ibiza Stardust Radio 🇪🇸
+          </div>
+          <FontAwesomeIcon icon={faExternalLinkAlt} className={css(styles.darkIcon)} />
+        </div>
+      </a>
+    </div>
+    <div className={css(styles.itemLinkOutter)}>
+      <a
+        href="https://soundcloud.com/gefangenintrance/git-podcast-session-77-jafi-bravin-into-the-mix"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={css(styles.itemLink)}
+        id="link-card-git-podcast-session-77"
+      >
+        <div className={css(styles.itemLinkInner)}>
+          <div>
+            <FontAwesomeIcon icon={faSoundcloud} className={css(styles.darkIcon)} />
+            GIT Podcast Session 77 # Jafi Bravin Into The Mix 🇩🇪
+          </div>
+          <FontAwesomeIcon icon={faExternalLinkAlt} className={css(styles.darkIcon)} />
+        </div>
+      </a>
+    </div>
+    <div className={css(styles.itemLinkOutter)}>
+      <a
         href="https://soundcloud.com/jafibravin-music/set-002-luppulo"
         target="_blank"
         rel="noopener noreferrer"

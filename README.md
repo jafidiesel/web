@@ -5,4 +5,3 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 CV template build in react. Feel free to use, open issues, create PR or send me comments :)
 
 Result: https://www.jafibravin.com/
-

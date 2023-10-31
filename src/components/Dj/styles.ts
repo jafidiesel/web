@@ -64,9 +64,51 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center"
   },
+  itemLinkInnerStart: {
+    alignItems: "flex-start"
+  },
   darkIcon: {
     color: "black",
     marginRight: 8
+  },
+  bioIcon: {
+    cursor: "pointer"
+  },
+  bioText: {
+    fontWeight: 500,
+    width: "80%"
+  },
+  bioTextWrapped: {
+    maxHeight: 30,
+    textOverflow: "ellipsis",
+    overflow: "hidden",
+    whiteSpace: "nowrap"
+  },
+  bioTextIcons: {
+    width: "100%",
+    display: "flex",
+    justifyContent: "flex-end",
+    alignItems: "center",
+    gap: 15,
+    cursor: "pointer"
+  },
+  bioTextIcon: {
+    border: "1px solid #8080805c",
+    borderRadius: 5,
+    width: 35,
+    height: 35,
+    padding: 5,
+    ":hover": {
+      backgroundColor: "#8080801c"
+    },
+    ":active": {
+      backgroundColor: "#0080007a"
+    }
+  },
+  collapseIcon: {
+    width: 20,
+    height: 20,
+    cursor: "pointer"
   }
 });
 

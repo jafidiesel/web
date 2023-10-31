@@ -12,7 +12,7 @@ import {
 import { useState } from "react";
 
 const Links = () => {
-  const [bioCollapse, setBioCollapse] = useState(false);
+  const [bioCollapse, setBioCollapse] = useState(true);
   const [spanishFlag, setSpanishFlag] = useState(false);
 
   const textEs =
@@ -111,13 +111,13 @@ const Links = () => {
             </div>
             {bioCollapse ? (
               <FontAwesomeIcon
-                icon={faAngleUp}
+                icon={faAngleDown}
                 className={css(styles.darkIcon, styles.collapseIcon)}
                 onClick={() => setBioCollapse(!bioCollapse)}
               />
             ) : (
               <FontAwesomeIcon
-                icon={faAngleDown}
+                icon={faAngleUp}
                 className={css(styles.darkIcon, styles.collapseIcon)}
                 onClick={() => setBioCollapse(!bioCollapse)}
               />

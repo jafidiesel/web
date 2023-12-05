@@ -1,7 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { css } from "aphrodite";
 import styles from "./styles";
-import { faSoundcloud, faInstagram, faMixcloud } from "@fortawesome/free-brands-svg-icons";
+import {
+  faSoundcloud,
+  faInstagram,
+  faMixcloud,
+  faYoutube
+} from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const SocialLinks = () => {
@@ -30,6 +35,14 @@ const SocialLinks = () => {
         id="social-link-mixcloud"
       >
         <FontAwesomeIcon icon={faMixcloud} className={css(styles.icon)} />
+      </a>
+      <a
+        href="https://www.youtube.com/channel/UCFufW_kIdr6p5q69sT944tQ"
+        target="_blank"
+        rel="noopener noreferrer"
+        id="social-link-youtube"
+      >
+        <FontAwesomeIcon icon={faYoutube} className={css(styles.icon)} />
       </a>
       <a
         href="mailto:jafibravin@gmail.com"

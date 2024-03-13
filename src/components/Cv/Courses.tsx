@@ -2,7 +2,7 @@ import React from "react";
 import Card from "../Card/Card";
 import { css } from "aphrodite";
 import styles from "./styles";
-import { coursesData } from "../../data";
+import { coursesData } from "./data";
 
 const Courses = () => {
   const { courses } = coursesData;

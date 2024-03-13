@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import { css } from "aphrodite";
 import styles from "./styles";
-import { projectsData } from "../../data";
+import { projectsData } from "./data";
 
 const Projects = () => {
   const { projects } = projectsData;

@@ -1,7 +1,6 @@
 import { css } from "aphrodite";
 import styles from "./styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faYoutube, faSoundcloud } from "@fortawesome/free-brands-svg-icons";
 import {
   faExternalLinkAlt,
   faComment,
@@ -10,6 +9,7 @@ import {
   faCopy
 } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
+import { setLinks } from "./data";
 
 const Links = () => {
   const [bioCollapse, setBioCollapse] = useState(true);
@@ -125,159 +125,24 @@ const Links = () => {
           </div>
         </div>
       </div>
-      <div className={css(styles.itemLinkOutter)}>
-        <a
-          href="https://soundcloud.com/ibizastardustradio/jafi-bravin-organic-connection-004"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={css(styles.itemLink)}
-          id="link-card-organic-connection-004"
-        >
-          <div className={css(styles.itemLinkInner)}>
-            <div>
-              <FontAwesomeIcon icon={faSoundcloud} className={css(styles.darkIcon)} />
-              Organic Connection #004 - Ibiza Stardust Radio (🇪🇸)
+      {setLinks.map(set => (
+        <div className={css(styles.itemLinkOutter)} key={set.id}>
+          <a
+            href={set.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={css(styles.itemLink)}
+          >
+            <div className={css(styles.itemLinkInner)}>
+              <div>
+                <FontAwesomeIcon icon={set.icon} className={css(styles.darkIcon)} />
+                {set.text}
+              </div>
+              <FontAwesomeIcon icon={faExternalLinkAlt} className={css(styles.darkIcon)} />
             </div>
-            <FontAwesomeIcon icon={faExternalLinkAlt} className={css(styles.darkIcon)} />
-          </div>
-        </a>
-      </div>
-      <div className={css(styles.itemLinkOutter)}>
-        <a
-          href="https://soundcloud.com/ibizastardustradio/jafi-bravin-organic-connection-003"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={css(styles.itemLink)}
-          id="link-card-organic-connection-003"
-        >
-          <div className={css(styles.itemLinkInner)}>
-            <div>
-              <FontAwesomeIcon icon={faSoundcloud} className={css(styles.darkIcon)} />
-              Organic Connection #003 - Ibiza Stardust Radio (🇪🇸)
-            </div>
-            <FontAwesomeIcon icon={faExternalLinkAlt} className={css(styles.darkIcon)} />
-          </div>
-        </a>
-      </div>
-      <div className={css(styles.itemLinkOutter)}>
-        <a
-          href="https://soundcloud.com/ibizastardustradio/jafi-bravin-organic-connection-002"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={css(styles.itemLink)}
-          id="link-card-organic-connection-002"
-        >
-          <div className={css(styles.itemLinkInner)}>
-            <div>
-              <FontAwesomeIcon icon={faSoundcloud} className={css(styles.darkIcon)} />
-              Organic Connection #002 - Ibiza Stardust Radio (🇪🇸)
-            </div>
-            <FontAwesomeIcon icon={faExternalLinkAlt} className={css(styles.darkIcon)} />
-          </div>
-        </a>
-      </div>
-      <div className={css(styles.itemLinkOutter)}>
-        <a
-          href="https://soundcloud.com/ibizastardustradio/jafi-bravin-organic-connection"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={css(styles.itemLink)}
-          id="link-card-organic-connection"
-        >
-          <div className={css(styles.itemLinkInner)}>
-            <div>
-              <FontAwesomeIcon icon={faSoundcloud} className={css(styles.darkIcon)} />
-              Organic Connection #001 - Ibiza Stardust Radio (🇪🇸)
-            </div>
-            <FontAwesomeIcon icon={faExternalLinkAlt} className={css(styles.darkIcon)} />
-          </div>
-        </a>
-      </div>
-      <div className={css(styles.itemLinkOutter)}>
-        <a
-          href="https://soundcloud.com/gefangenintrance/git-podcast-session-77-jafi-bravin-into-the-mix"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={css(styles.itemLink)}
-          id="link-card-git-podcast-session-77"
-        >
-          <div className={css(styles.itemLinkInner)}>
-            <div>
-              <FontAwesomeIcon icon={faSoundcloud} className={css(styles.darkIcon)} />
-              GIT Podcast Session 77 # Jafi Bravin Into The Mix (🇩🇪)
-            </div>
-            <FontAwesomeIcon icon={faExternalLinkAlt} className={css(styles.darkIcon)} />
-          </div>
-        </a>
-      </div>
-      <div className={css(styles.itemLinkOutter)}>
-        <a
-          href="https://soundcloud.com/jafibravin-music/set-002-luppulo"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={css(styles.itemLink)}
-          id="link-card-set-002"
-        >
-          <div className={css(styles.itemLinkInner)}>
-            <div>
-              <FontAwesomeIcon icon={faSoundcloud} className={css(styles.darkIcon)} />
-              Set 002 - Luppulo
-            </div>
-            <FontAwesomeIcon icon={faExternalLinkAlt} className={css(styles.darkIcon)} />
-          </div>
-        </a>
-      </div>
-      <div className={css(styles.itemLinkOutter)}>
-        <a
-          href="https://soundcloud.com/gefangenintrance/git-podcast-session-62-jafi-bravin-into-the-mix"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={css(styles.itemLink)}
-          id="link-card-git-podcast-session-62"
-        >
-          <div className={css(styles.itemLinkInner)}>
-            <div>
-              <FontAwesomeIcon icon={faSoundcloud} className={css(styles.darkIcon)} />
-              GIT Podcast Session 62 # Jafi Bravin Into The Mix (🇩🇪)
-            </div>
-            <FontAwesomeIcon icon={faExternalLinkAlt} className={css(styles.darkIcon)} />
-          </div>
-        </a>
-      </div>
-      <div className={css(styles.itemLinkOutter)}>
-        <a
-          href="https://www.youtube.com/watch?v=tGHOxAtj5t8"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={css(styles.itemLink)}
-          id="link-card-after-movie-beatroom-showcase-2022"
-        >
-          <div className={css(styles.itemLinkInner)}>
-            <div>
-              <FontAwesomeIcon icon={faYoutube} className={css(styles.darkIcon)} />
-              After Movie - Beatroom showcase 2022
-            </div>
-            <FontAwesomeIcon icon={faExternalLinkAlt} className={css(styles.darkIcon)} />
-          </div>
-        </a>
-      </div>
-      <div className={css(styles.itemLinkOutter)}>
-        <a
-          href="https://soundcloud.com/jafibravin-music/set-001-progressive"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={css(styles.itemLink)}
-          id="link-card-set-001"
-        >
-          <div className={css(styles.itemLinkInner)}>
-            <div>
-              <FontAwesomeIcon icon={faSoundcloud} className={css(styles.darkIcon)} />
-              Set 001 - Progressive
-            </div>
-            <FontAwesomeIcon icon={faExternalLinkAlt} className={css(styles.darkIcon)} />
-          </div>
-        </a>
-      </div>
+          </a>
+        </div>
+      ))}
     </div>
   );
 };

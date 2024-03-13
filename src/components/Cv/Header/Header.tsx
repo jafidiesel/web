@@ -2,7 +2,7 @@ import React from "react";
 import Card from "../../Card/Card";
 import { css } from "aphrodite";
 import styles from "./styles";
-import { header } from "../../../data";
+import { header } from "../data";
 
 const Header = () => {
   return (

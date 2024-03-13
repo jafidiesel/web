@@ -1,6 +1,6 @@
 import { css } from "aphrodite";
 import React, { Fragment } from "react";
-import { skills } from "../../data";
+import { skills } from "./data";
 import Card from "../Card/Card";
 import styles from "./styles";
 

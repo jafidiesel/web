@@ -3,7 +3,7 @@ import Card from "../Card/Card";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { css } from "aphrodite";
 import styles from "./styles";
-import { socialLinks } from "../../data";
+import { socialLinks } from "./data";
 
 const SocialLinks = () => {
   if (!socialLinks.length) return <></>;

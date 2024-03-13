@@ -9,11 +9,6 @@ interface ISocialLink {
 export const socialLinks: ISocialLink[] = [
   /* optional */
   {
-    link: "#",
-    text: "Resume",
-    icon: "external-link-alt"
-  },
-  {
     link: "https://www.linkedin.com/in/javierbravin/",
     text: "LinkedIn",
     icon: "external-link-alt"

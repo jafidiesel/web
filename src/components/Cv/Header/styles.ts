@@ -9,8 +9,7 @@ const styles = StyleSheet.create({
   },
   image: {
     maxWidth: 200,
-    borderBottomLeftRadius: 5,
-    borderTopLeftRadius: 5,
+    borderRadius: 12,
     "@media (max-width: 576px)": {
       maxWidth: 120,
       maxHeight: 120

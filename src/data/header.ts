@@ -5,7 +5,7 @@ interface IHeader {
 }
 
 export const header: IHeader = {
-  title: "Hi! I'm Jafi",
-  subtitle: "I'm a Software Engenieer",
+  title: "Hi!",
+  subtitle: "I'm Jafi, a Software Engenieer",
   pictureUrl: "./profile.jpeg"
 };

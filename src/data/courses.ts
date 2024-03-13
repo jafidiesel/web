@@ -1,7 +1,7 @@
 interface ICoursesEvent {
   title: string;
   platform: string;
-  link: string;
+  link: string | null;
 }
 
 interface ICourses {
@@ -11,28 +11,33 @@ interface ICourses {
 export const coursesData: ICourses = {
   courses: [
     {
+      title: "Arquitectura Hexagonal en Frontend",
+      platform: "Codely",
+      link: "https://codely.com/"
+    },
+    {
       title: "Bootcamp Advanced",
       platform: "Coding bootcamp",
       link: "https://www.plataforma5.la/"
     },
     {
       title: "What The Flexbox?!",
-      platform: "",
+      platform: "WES BOS",
       link: "https://wesbos.com/"
     },
     {
       title: "CSS Grid",
-      platform: "",
+      platform: "WES BOS",
       link: "https://wesbos.com/"
     },
     {
       title: "Learn Redux",
-      platform: "",
+      platform: "WES BOS",
       link: "https://wesbos.com/"
     },
     {
       title: "React for beginners",
-      platform: "",
+      platform: "WES BOS",
       link: "https://wesbos.com/"
     },
     {
@@ -48,17 +53,17 @@ export const coursesData: ICourses = {
     {
       title: "Angular: De cero a experto creando aplicaciones",
       platform: "Udemy",
-      link: ""
+      link: null
     },
     {
       title: "Python + Flask",
       platform: "faztech",
-      link: ""
+      link: null
     },
     {
       title: "Javascript Essentials",
       platform: "Udemy",
-      link: ""
+      link: null
     }
   ]
 };

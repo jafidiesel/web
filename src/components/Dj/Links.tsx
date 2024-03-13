@@ -1,7 +1,6 @@
 import { css } from "aphrodite";
 import styles from "./styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faYoutube, faSoundcloud } from "@fortawesome/free-brands-svg-icons";
 import {
   faExternalLinkAlt,
   faComment,

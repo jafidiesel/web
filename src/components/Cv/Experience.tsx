@@ -18,7 +18,9 @@ const Experience = () => {
               {element.company + ": "}
               <span className={css(styles.subTitleRole)}>{element.rol}</span>
             </h5>
-            <p>{element.description}</p>
+            {element.descriptions.map((description, index) => (
+              <p key={index}>{description}</p>
+            ))}
           </div>
         );
       })}

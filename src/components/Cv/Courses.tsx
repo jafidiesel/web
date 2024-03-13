@@ -15,7 +15,16 @@ const Courses = () => {
           return (
             <h6 key={"course" + index}>
               <span className={css(styles.subTitleRole)}>{course.title + ": "}</span>
-              <small>{course.platform}</small>
+
+              {course.link ? (
+                <small>
+                  <a href={course.link} target="_blank" rel="noreferrer">
+                    {course.platform}
+                  </a>
+                </small>
+              ) : (
+                <small>{course.platform}</small>
+              )}
             </h6>
           );
         })}

@@ -8,36 +8,32 @@ function Skills() {
   const { hardSkills, softSkill } = skills;
   if (!hardSkills?.list?.length && softSkill?.list?.length) return <></>;
   return (
-    <>
+    <div className={css(styles.columns)}>
       {hardSkills?.list?.length && (
-        <div>
-          <Card>
-            <>
-              <h3 className={css(styles.title)}>{hardSkills.title}</h3>
-              <ul>
-                {hardSkills.list.map((skill, index) => (
-                  <li key={"skill-" + index}>{skill}</li>
-                ))}
-              </ul>
-            </>
-          </Card>
-        </div>
+        <Card>
+          <>
+            <h3 className={css(styles.title)}>{hardSkills.title}</h3>
+            <ul className={css(styles.bulletList)}>
+              {hardSkills.list.map((skill, index) => (
+                <li key={"skill-" + index}>{skill}</li>
+              ))}
+            </ul>
+          </>
+        </Card>
       )}
       {softSkill?.list?.length && (
-        <div>
-          <Card>
-            <>
-              <h3 className={css(styles.title)}>{softSkill.title}</h3>
-              <ul>
-                {softSkill.list.map((skill, index) => (
-                  <li key={"soft-" + index}>{skill}</li>
-                ))}
-              </ul>
-            </>
-          </Card>
-        </div>
+        <Card>
+          <>
+            <h3 className={css(styles.title)}>{softSkill.title}</h3>
+            <ul className={css(styles.bulletList)}>
+              {softSkill.list.map((skill, index) => (
+                <li key={"soft-" + index}>{skill}</li>
+              ))}
+            </ul>
+          </>
+        </Card>
       )}
-    </>
+    </div>
   );
 }
 

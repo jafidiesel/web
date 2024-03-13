@@ -43,7 +43,7 @@ const Projects = () => {
                     <FontAwesomeIcon icon={faExternalLinkAlt} />
                   </a>
                 )}
-                <div>
+                <div className={css(styles.keyWordContainer)}>
                   {project.keyword.map((element, index) => (
                     <span key={"keyword" + index} className={css(styles.keyword)}>
                       #{element}

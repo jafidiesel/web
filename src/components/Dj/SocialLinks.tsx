@@ -21,7 +21,7 @@ const SocialLinks = () => {
         <FontAwesomeIcon icon={faSoundcloud} className={css(styles.icon)} />
       </a>
       <a
-        href="https://www.instagram.com/jafibravinmusic/"
+        href="https://www.instagram.com/jafi.dj"
         target="_blank"
         rel="noopener noreferrer"
         id="social-link-instagram"

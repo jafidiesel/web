@@ -11,7 +11,7 @@ export const setLinks: ISetLinks[] = [
   {
     id: "link-card-house-playground-lounge-housemusic",
     link: "https://www.youtube.com/watch?v=NYhdDDRZETE&ab_channel=JafiBravinMusic",
-    text: "House Playground - Lounge #housemusic",
+    text: "House Playground #001 - Lounge #housemusic",
     icon: faYoutube
   },
   {

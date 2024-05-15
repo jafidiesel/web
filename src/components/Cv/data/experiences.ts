@@ -41,7 +41,7 @@ export const experiencesData: IExperiences = {
     {
       company: "O.S.E.P.",
       rol: "Fullstack Developer",
-      time: "April 2007 - June 2019",
+      time: "April 2017 - June 2019",
       descriptions: [
         "Healthcare service.",
         "Development of small full stack projects, from data modeling to client-side functionality.",

@@ -10,7 +10,7 @@ const Header = () => {
         <img src={pic} className={css(styles.profile)} alt="pic" />
         <div>Jafi Bravin</div>
         <div>Booking: jafibravin@gmail.com</div>
-        <div>Progressive House / Organic House / Melodic House</div>
+        <div>House music / Techno</div>
         <div>Mendoza, Argentina 🇦🇷</div>
       </div>
     </>

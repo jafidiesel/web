@@ -31,9 +31,13 @@ const stylesContact = StyleSheet.create({
     height: "100%"
   },
   photoContainer: {
+    display: "inline-block",
     position: "relative",
-
     height: "100%"
+  },
+  gradientEffect: {
+    maskImage: "linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))",
+    WebkitMaskImage: "linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))"
   }
 });
 

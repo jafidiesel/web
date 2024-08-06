@@ -23,16 +23,20 @@ const stylesBio = StyleSheet.create({
     alignItems: "center"
   },
   bioContent: {
-    width: "50%",
-    textAlign: "right",
-    marginRight: "15px"
+    width: "45%",
+    textAlign: "right"
   },
   photoContainer: {
+    display: "inline-block",
     height: "100%",
-    width: "50%"
+    width: "45%"
   },
   photoBio: {
     height: "600px"
+  },
+  gradientEffect: {
+    maskImage: "linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))",
+    WebkitMaskImage: "linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))"
   }
 });
 

@@ -7,7 +7,12 @@ const styles = StyleSheet.create({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    overflow: "hidden"
+    overflow: "hidden",
+    overflowY: "scroll",
+    scrollbarWidth: "none",
+    ":webkit-scrollbar": {
+      display: "none"
+    }
   }
 });
 

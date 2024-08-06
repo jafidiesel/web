@@ -15,7 +15,7 @@ const BlockTitle = () => {
         </div>
 
         <div className={css(stylesTitle.photoContainer)}>
-          <img src={jafiFoto01} className={css(stylesTitle.photoBio)} />
+          <img src={jafiFoto01} className={css(stylesTitle.photoBio, stylesTitle.gradientEffect)} />
         </div>
       </div>
     </>

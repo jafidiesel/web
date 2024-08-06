@@ -28,11 +28,13 @@ const stylesContact = StyleSheet.create({
     margin: "0px"
   },
   contacMedias: {
-    margin: "0px"
+    margin: "0px 4px",
+    fontSize: "30px",
+    color: "#fff"
   },
   socialMedia: {
     display: "flex",
-    justifyContent: "center",
+
     listStyleType: "none"
   },
   pressPhotosBtn: {
@@ -42,18 +44,26 @@ const stylesContact = StyleSheet.create({
     fontSize: "15px",
     border: "2px solid #fff",
     padding: "6px 10px",
-    width: "100%"
+    width: "100%",
+    ":hover": {
+      backgroundColor: "red"
+    }
   },
   spacedButton: {
     letterSpacing: "2px",
     wordSpacing: "3px"
   },
   photoContainer: {
+    display: "inline-block",
     height: "100%",
     width: "50vw"
   },
   photoBio: {
     height: "449px"
+  },
+  gradientEffect: {
+    maskImage: "linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))",
+    WebkitMaskImage: "linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))"
   }
 });
 

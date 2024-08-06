@@ -3,6 +3,15 @@ import { css } from "aphrodite";
 import stylesContact from "./stylesContact";
 import jafiFoto03 from "./jafi03.jpg";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faSoundcloud,
+  faInstagram,
+  faMixcloud,
+  faYoutube
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
 const BlockContact = () => {
   return (
     <>
@@ -16,11 +25,62 @@ const BlockContact = () => {
           <div className={css(stylesContact.contactBLock)}>
             <p className={css(stylesContact.spacedTitle)}>SOCIAL MEDIA</p>
             <ul className={css(stylesContact.socialMedia)}>
-              <li className={css(stylesContact.contacMedias)}>☁️</li>
-              <li className={css(stylesContact.contacMedias)}>📷</li>
-              <li className={css(stylesContact.contacMedias)}>📶</li>
-              <li className={css(stylesContact.contacMedias)}>▶️</li>
-              <li className={css(stylesContact.contacMedias)}>✉️</li>
+              <li>
+                <a
+                  href="https://soundcloud.com/jafibravin-music"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="social-link-soundcloud"
+                >
+                  <FontAwesomeIcon
+                    icon={faSoundcloud}
+                    className={css(stylesContact.contacMedias)}
+                  />
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.instagram.com/jafi.dj"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="social-link-instagram"
+                >
+                  <FontAwesomeIcon icon={faInstagram} className={css(stylesContact.contacMedias)} />
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.mixcloud.com/jafibravin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="social-link-mixcloud"
+                >
+                  <FontAwesomeIcon icon={faMixcloud} className={css(stylesContact.contacMedias)} />
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.youtube.com/channel/UCFufW_kIdr6p5q69sT944tQ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="social-link-youtube"
+                >
+                  <FontAwesomeIcon icon={faYoutube} className={css(stylesContact.contacMedias)} />
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="mailto:jafibravin@gmail.com"
+                  aria-label="Jafi Bravin email address"
+                  id="social-link-email"
+                >
+                  <FontAwesomeIcon icon={faEnvelope} className={css(stylesContact.contacMedias)} />
+                </a>
+              </li>
             </ul>
           </div>
 
@@ -32,7 +92,10 @@ const BlockContact = () => {
         </div>
 
         <div className={css(stylesContact.photoContainer)}>
-          <img src={jafiFoto03} className={css(stylesContact.photoBio)} />
+          <img
+            src={jafiFoto03}
+            className={css(stylesContact.photoBio, stylesContact.gradientEffect)}
+          />
         </div>
       </div>
     </>

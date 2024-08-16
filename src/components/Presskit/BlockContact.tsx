@@ -95,6 +95,7 @@ const BlockContact = () => {
           <img
             src={jafiFoto03}
             className={css(stylesContact.photoBio, stylesContact.gradientEffect)}
+            alt=""
           />
         </div>
       </div>

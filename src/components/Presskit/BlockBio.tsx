@@ -8,7 +8,11 @@ const BlockBio = () => {
     <>
       <div className={css(stylesBio.sectionBio)}>
         <div className={css(stylesBio.photoContainer)}>
-          <img src={jafiFoto02} className={css(stylesBio.photoBio, stylesBio.gradientEffect)} />
+          <img
+            src={jafiFoto02}
+            className={css(stylesBio.photoBio, stylesBio.gradientEffect)}
+            alt=""
+          />
         </div>
 
         <div className={css(stylesBio.bioContent)}>

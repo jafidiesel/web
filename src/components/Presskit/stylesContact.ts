@@ -34,7 +34,6 @@ const stylesContact = StyleSheet.create({
   },
   socialMedia: {
     display: "flex",
-
     listStyleType: "none"
   },
   pressPhotosBtn: {

@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Cv from "../Cv/Cv";
 import Dj from "../Dj/Dj";
 import Home from "../Home/Home";
+import Presskit from "../Presskit/Presskit";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -18,6 +19,10 @@ const App = () => {
     {
       path: "/cv",
       element: <Cv />
+    },
+    {
+      path: "/presskit",
+      element: <Presskit />
     },
     {
       path: "*",

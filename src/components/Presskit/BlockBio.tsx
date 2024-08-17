@@ -16,7 +16,7 @@ const BlockBio = () => {
         </div>
 
         <div className={css(stylesBio.bioContent)}>
-          <h2>BIOGRAFIA</h2>
+          <h2>BIO</h2>
 
           <p>
             Javier Bravin, better known as Jafi Bravin, is a talented DJ hailing from Mendoza,
@@ -31,11 +31,6 @@ const BlockBio = () => {
             Assault, at Studio Beatroom.
             <br />
             <br />
-            Throughout his career, Jafi Bravin has had the opportunity to perform at various bars in
-            the local scene, including iconic venues like Lúppolo Imperial, Rabbit Lounge, Unión
-            Cervecera, and Lúppolo Tienda Cervecera.
-            <br />
-            <br />
             One of Jafi Bravin's most noteworthy achievements is his role as a resident DJ on Ibiza
             Stardust Radio, where he hosts his own program titled "Organic Connection." As an
             artist, Jafi seeks not only to get the dance floor moving but also to create magical
@@ -44,7 +39,9 @@ const BlockBio = () => {
             and his dedication to providing a unique musical experience to his audience.
             <br />
           </p>
-          <h2>@jafibravin</h2>
+          <a className={css(stylesBio.jafiDjLink)} href="https://www.instagram.com/jafi.dj">
+            @jafi.dj
+          </a>
         </div>
       </div>
     </>

@@ -8,7 +8,7 @@ const BlockTitle = () => {
     <>
       <div className={css(stylesTitle.sectionTitle)}>
         <div className={css(stylesTitle.titleTextContainer)}>
-          <p className={css(stylesTitle.nameDJ)}>EL JAFI DJ</p>
+          <p className={css(stylesTitle.nameDJ)}>Jafi Bravin</p>
           <p className={css(stylesTitle.presskitOut)}>
             [<span className={css(stylesTitle.presskitIn)}>PRESSKIT</span>]
           </p>

@@ -19,7 +19,9 @@ const BlockContact = () => {
         <div className={css(stylesContact.contactContent)}>
           <div className={css(stylesContact.contactBLock)}>
             <p className={css(stylesContact.spacedTitle)}>BOOKING CONTACT</p>
-            <p className={css(stylesContact.contactMail)}>jafibravin@gmail.com</p>
+            <a className={css(stylesContact.mailStyle)} href="mailto:jafibravin@gmail.com">
+              <p className={css(stylesContact.contactMail)}>jafibravin@gmail.com</p>
+            </a>
           </div>
 
           <div className={css(stylesContact.contactBLock)}>
@@ -85,9 +87,14 @@ const BlockContact = () => {
           </div>
 
           <div className={css(stylesContact.contactBLock)}>
-            <div className={css(stylesContact.spacedButton, stylesContact.pressPhotosBtn)}>
-              PRESS PHOTOS - GRAPHIC ASSETS
-            </div>
+            <a
+              className={css(stylesContact.pressBtnLink)}
+              href="https://www.dropbox.com/scl/fo/cgujbd6nyee0mqcjo0ykq/AI-uvnShgSOgkPYV4I8PGwY?rlkey=wxjnh4j7vnq5f1ee97x1koz9q&st=z60qxjp5&dl=0"
+            >
+              <div className={css(stylesContact.spacedButton, stylesContact.pressPhotosBtn)}>
+                PRESS PHOTOS - GRAPHIC ASSETS
+              </div>
+            </a>
           </div>
         </div>
 

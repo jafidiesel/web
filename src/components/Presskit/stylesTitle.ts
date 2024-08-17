@@ -12,7 +12,8 @@ const stylesContact = StyleSheet.create({
     height: "120vh",
     display: "flex",
     flexDirection: "row",
-    justifyContent: "flex-end"
+    justifyContent: "flex-end",
+    marginTop: "-50px"
   },
   nameDJ: {
     fontSize: "70px",
@@ -36,8 +37,8 @@ const stylesContact = StyleSheet.create({
     height: "100%"
   },
   gradientEffect: {
-    maskImage: "linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))",
-    WebkitMaskImage: "linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))"
+    maskImage: "radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3))",
+    WebkitMaskImage: "radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)"
   }
 });
 

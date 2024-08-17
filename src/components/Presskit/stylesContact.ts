@@ -14,9 +14,21 @@ const stylesContact = StyleSheet.create({
     fontSize: "25px",
     width: "50vw"
   },
+  pressBtnLink: {
+    ":hover": {
+      color: "#000",
+      textDecoration: "none"
+    }
+  },
   contactBLock: {
     textAlign: "center",
     margin: "40px 0px"
+  },
+  mailStyle: {
+    color: "#fff",
+    ":hover": {
+      textDecoration: "none"
+    }
   },
   spacedTitle: {
     letterSpacing: "10px",
@@ -45,7 +57,9 @@ const stylesContact = StyleSheet.create({
     padding: "6px 10px",
     width: "100%",
     ":hover": {
-      backgroundColor: "red"
+      backgroundColor: "#fff",
+      color: "#000",
+      textDecoration: "none"
     }
   },
   spacedButton: {
@@ -61,8 +75,8 @@ const stylesContact = StyleSheet.create({
     height: "449px"
   },
   gradientEffect: {
-    maskImage: "linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))",
-    WebkitMaskImage: "linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))"
+    maskImage: "radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3))",
+    WebkitMaskImage: "radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)"
   }
 });
 

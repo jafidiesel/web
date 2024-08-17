@@ -22,6 +22,10 @@ const stylesBio = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center"
   },
+  jafiDjLink: {
+    color: "#fff",
+    fontSize: "30px"
+  },
   bioContent: {
     width: "45%",
     textAlign: "right"
@@ -35,8 +39,8 @@ const stylesBio = StyleSheet.create({
     height: "600px"
   },
   gradientEffect: {
-    maskImage: "linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))",
-    WebkitMaskImage: "linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0))"
+    maskImage: "radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3))",
+    WebkitMaskImage: "radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)"
   }
 });
 

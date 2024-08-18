@@ -39,7 +39,11 @@ const BlockBio = () => {
             and his dedication to providing a unique musical experience to his audience.
             <br />
           </p>
-          <a className={css(stylesBio.jafiDjLink)} href="https://www.instagram.com/jafi.dj">
+          <a
+            className={css(stylesBio.jafiDjLink)}
+            href="https://www.instagram.com/jafi.dj"
+            target="_blank"
+          >
             @jafi.dj
           </a>
         </div>

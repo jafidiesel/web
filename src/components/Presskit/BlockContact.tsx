@@ -33,10 +33,23 @@ const BlockContact = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   id="social-link-soundcloud"
+                  className="d-print-none"
                 >
                   <FontAwesomeIcon
                     icon={faSoundcloud}
-                    className={css(stylesContact.contacMedias)}
+                    className={css(stylesContact.contactMedias)}
+                  />
+                </a>
+                <a
+                  href="https://soundcloud.com/jafibravin-music"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="social-link-soundcloud"
+                  className="d-none d-print-block"
+                >
+                  <FontAwesomeIcon
+                    icon={faSoundcloud}
+                    className={css(stylesContact.contactMediasPrint)}
                   />
                 </a>
               </li>
@@ -47,8 +60,24 @@ const BlockContact = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   id="social-link-instagram"
+                  className="d-print-none"
                 >
-                  <FontAwesomeIcon icon={faInstagram} className={css(stylesContact.contacMedias)} />
+                  <FontAwesomeIcon
+                    icon={faInstagram}
+                    className={css(stylesContact.contactMedias)}
+                  />
+                </a>
+                <a
+                  href="https://www.instagram.com/jafi.dj"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="social-link-instagram"
+                  className="d-none d-print-block"
+                >
+                  <FontAwesomeIcon
+                    icon={faInstagram}
+                    className={css(stylesContact.contactMediasPrint)}
+                  />
                 </a>
               </li>
 
@@ -58,8 +87,21 @@ const BlockContact = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   id="social-link-mixcloud"
+                  className="d-print-none"
                 >
-                  <FontAwesomeIcon icon={faMixcloud} className={css(stylesContact.contacMedias)} />
+                  <FontAwesomeIcon icon={faMixcloud} className={css(stylesContact.contactMedias)} />
+                </a>
+                <a
+                  href="https://www.mixcloud.com/jafibravin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="social-link-mixcloud"
+                  className="d-none d-print-block"
+                >
+                  <FontAwesomeIcon
+                    icon={faMixcloud}
+                    className={css(stylesContact.contactMediasPrint)}
+                  />
                 </a>
               </li>
 
@@ -69,8 +111,21 @@ const BlockContact = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   id="social-link-youtube"
+                  className="d-print-none"
                 >
-                  <FontAwesomeIcon icon={faYoutube} className={css(stylesContact.contacMedias)} />
+                  <FontAwesomeIcon icon={faYoutube} className={css(stylesContact.contactMedias)} />
+                </a>
+                <a
+                  href="https://www.youtube.com/channel/UCFufW_kIdr6p5q69sT944tQ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  id="social-link-youtube"
+                  className="d-none d-print-block"
+                >
+                  <FontAwesomeIcon
+                    icon={faYoutube}
+                    className={css(stylesContact.contactMediasPrint)}
+                  />
                 </a>
               </li>
 
@@ -79,8 +134,20 @@ const BlockContact = () => {
                   href="mailto:jafibravin@gmail.com"
                   aria-label="Jafi Bravin email address"
                   id="social-link-email"
+                  className="d-print-none"
                 >
-                  <FontAwesomeIcon icon={faEnvelope} className={css(stylesContact.contacMedias)} />
+                  <FontAwesomeIcon icon={faEnvelope} className={css(stylesContact.contactMedias)} />
+                </a>
+                <a
+                  href="mailto:jafibravin@gmail.com"
+                  aria-label="Jafi Bravin email address"
+                  id="social-link-email"
+                  className="d-none d-print-block"
+                >
+                  <FontAwesomeIcon
+                    icon={faEnvelope}
+                    className={css(stylesContact.contactMediasPrint)}
+                  />
                 </a>
               </li>
             </ul>

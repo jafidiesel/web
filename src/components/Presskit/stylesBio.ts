@@ -30,13 +30,18 @@ const stylesBio = StyleSheet.create({
     width: "45%",
     textAlign: "right"
   },
+  bioContentText: {
+    color: "#fff",
+    padding: "0 20px"
+  },
   photoContainer: {
     display: "inline-block",
     height: "100%",
     width: "45%"
   },
   photoBio: {
-    height: "600px"
+    maxHeight: "600px",
+    width: "100%"
   },
   gradientEffect: {
     maskImage: "radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3))",

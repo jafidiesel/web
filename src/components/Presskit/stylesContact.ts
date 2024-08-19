@@ -39,14 +39,20 @@ const stylesContact = StyleSheet.create({
     fontSize: "18px",
     margin: "0px"
   },
-  contacMedias: {
+  contactMedias: {
     margin: "0px 4px",
     fontSize: "30px",
     color: "#fff"
   },
+  contactMediasPrint: {
+    margin: "0px 4px",
+    fontSize: "30px",
+    color: "#000"
+  },
   socialMedia: {
     display: "flex",
-    listStyleType: "none"
+    listStyleType: "none",
+    gap: "12px"
   },
   pressPhotosBtn: {
     backgroundColor: "black",

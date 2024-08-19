@@ -36,7 +36,8 @@ const stylesBio = StyleSheet.create({
     width: "45%"
   },
   photoBio: {
-    height: "600px"
+    height: "600px",
+    width: "100%"
   },
   gradientEffect: {
     maskImage: "radial-gradient(circle, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3))",

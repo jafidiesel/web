@@ -38,7 +38,12 @@ const BlockBio = () => {
             inolvidable.
             <br />
           </p>
-          <a className={css(stylesBio.jafiDjLink)} href="https://www.instagram.com/jafi.dj">
+          <a
+            className={css(stylesBio.jafiDjLink)}
+            href="https://www.instagram.com/jafi.dj"
+            target="_blank"
+            rel="noreferrer"
+          >
             @jafi.dj
           </a>
         </div>

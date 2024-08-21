@@ -19,7 +19,12 @@ const BlockContact = () => {
         <div className={css(stylesContact.contactContent)}>
           <div className={css(stylesContact.contactBLock)}>
             <p className={css(stylesContact.spacedTitle)}>BOOKING CONTACT</p>
-            <a className={css(stylesContact.mailStyle)} href="mailto:jafibravin@gmail.com">
+            <a
+              className={css(stylesContact.mailStyle)}
+              href="mailto:jafibravin@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               <p className={css(stylesContact.contactMail)}>jafibravin@gmail.com</p>
             </a>
           </div>
@@ -135,6 +140,7 @@ const BlockContact = () => {
                   aria-label="Jafi Bravin email address"
                   id="social-link-email"
                   className="d-print-none"
+                  rel="noreferrer"
                 >
                   <FontAwesomeIcon icon={faEnvelope} className={css(stylesContact.contactMedias)} />
                 </a>
@@ -143,6 +149,7 @@ const BlockContact = () => {
                   aria-label="Jafi Bravin email address"
                   id="social-link-email"
                   className="d-none d-print-block"
+                  rel="noreferrer"
                 >
                   <FontAwesomeIcon
                     icon={faEnvelope}
@@ -157,6 +164,8 @@ const BlockContact = () => {
             <a
               className={css(stylesContact.pressBtnLink)}
               href="https://www.dropbox.com/scl/fo/cgujbd6nyee0mqcjo0ykq/AI-uvnShgSOgkPYV4I8PGwY?rlkey=wxjnh4j7vnq5f1ee97x1koz9q&st=z60qxjp5&dl=0"
+              target="_blank"
+              rel="noreferrer"
             >
               <div className={css(stylesContact.spacedButton, stylesContact.pressPhotosBtn)}>
                 PRESS PHOTOS - GRAPHIC ASSETS

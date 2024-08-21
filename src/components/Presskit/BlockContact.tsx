@@ -23,6 +23,7 @@ const BlockContact = () => {
               className={css(stylesContact.mailStyle)}
               href="mailto:jafibravin@gmail.com"
               target="_blank"
+              rel="noreferrer"
             >
               <p className={css(stylesContact.contactMail)}>jafibravin@gmail.com</p>
             </a>

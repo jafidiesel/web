@@ -42,6 +42,7 @@ const BlockBio = () => {
             className={css(stylesBio.jafiDjLink)}
             href="https://www.instagram.com/jafi.dj"
             target="_blank"
+            rel="noreferrer"
           >
             @jafi.dj
           </a>
